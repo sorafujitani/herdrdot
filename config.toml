@@ -1,0 +1,15 @@
+[theme]
+
+[theme.custom]
+panel_bg = "#020b16"
+surface_dim = "#030d18"
+surface0 = "#04111e"
+surface1 = "#071827"
+overlay0 = "#1b3144"
+overlay1 = "#294056"
+text = "#c8d7e8"
+subtext0 = "#8ea3b8"
+accent = "#2f5f78"
+blue = "#2f5f78"
+teal = "#67d4e8"
+mauve = "#8fa8c8"
