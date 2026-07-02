@@ -1,3 +1,17 @@
+[keys]
+prefix = "ctrl+a"
+workspace_picker = "ctrl+w"
+
+[[keys.command]]
+key = "prefix+ctrl+g"
+type = "pane"
+command = "lazygit"
+
+[[keys.command]]
+key = "prefix+ctrl+e"
+type = "pane"
+command = "nvim"
+
 [theme]
 
 [theme.custom]
@@ -9,6 +23,8 @@ overlay0 = "#1b3144"
 overlay1 = "#294056"
 text = "#c8d7e8"
 subtext0 = "#8ea3b8"
+green = "#a5e9ff"
+yellow = "#4f8cff"
 accent = "#2f5f78"
 blue = "#2f5f78"
 teal = "#67d4e8"
