@@ -17,6 +17,22 @@ key = "prefix+ctrl+e"
 type = "pane"
 command = "nvim"
 
+[ui]
+# Put agents that need attention near the top of the panel.
+agent_panel_sort = "priority"
+
+# Show detected agent names in split pane borders.
+show_agent_labels_on_pane_borders = true
+
+[ui.toast]
+# Use OS notifications for background agent state changes.
+delivery = "system"
+delay_seconds = 1
+
+[session]
+# Resume supported agent panes after a Herdr server restart.
+resume_agents_on_restore = true
+
 [theme]
 
 [theme.custom]
